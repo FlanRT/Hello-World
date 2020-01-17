@@ -6,7 +6,7 @@ bool is_prime(int nNumber) {
   int nSqrt = sqrt(nNumber);
   
   for (int i = 2; i <= Sqrt; i++)
-    if (nNumber % i != 0)
+    if (nNumber % i == 0)
       return false;
   return true;
 }
